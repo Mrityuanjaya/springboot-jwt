@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Jwt-Security-Collection",
+    "dateExported": "2023-07-07T17:09:12.361Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e6201ede-9250-40dc-97f3-a2aa54d1614a",
+            "colId": "4e805a2f-4211-432d-b954-c97aa04cc8a0",
+            "containerId": "",
+            "name": "http://localhost:8080/api/v1/auth/register",
+            "url": "http://localhost:8080/api/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-07-07T17:08:47.094Z",
+            "modified": "2023-07-07T17:08:47.094Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstname\": \"Mrityuanjaya\",\n  \"lastname\": \"Gupta\",\n  \"email\": \"mrityuanjayagupta@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "c781c3b2-9342-47e9-9d42-2efb636f15be",
+            "colId": "4e805a2f-4211-432d-b954-c97aa04cc8a0",
+            "containerId": "",
+            "name": "http://localhost:8080/api/v1/demo-controller",
+            "url": "http://localhost:8080/api/v1/demo-controller",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-07-07T17:08:57.760Z",
+            "modified": "2023-07-07T17:08:57.760Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtcml0eXVhbmpheWFndXB0YUBnbWFpbC5jb20iLCJpYXQiOjE2ODg3NDk0ODIsImV4cCI6MTY4ODc1MDkyMn0._qc2N26TG1XPerON_giPbV71AoJyyeRBYwm4T_1yF68"
+            },
+            "tests": []
+        },
+        {
+            "_id": "b0cd7864-146f-488b-a280-c8e22f027f7d",
+            "colId": "4e805a2f-4211-432d-b954-c97aa04cc8a0",
+            "containerId": "",
+            "name": "http://localhost:8080/api/v1/post/44",
+            "url": "http://localhost:8080/api/v1/auth/authenticate",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-07T17:09:04.614Z",
+            "modified": "2023-07-07T17:09:04.614Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"mrityuanjayagupta@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
