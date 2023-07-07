@@ -8,6 +8,9 @@ Dependencies to be installed:
 - Spring Data JPA (To access data between Java Class and relational database)
 - H2 Database (In-memory database)
 - Lombok (To reduce boilerplate code)
+- jjwt-api (methods and interfaces for jwt)
+- jjwt-impl (implementation module of JJWT library)
+- jjwt-jackson (serialize and deserialize jwt)
 
 Testing:
 
